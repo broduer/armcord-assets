@@ -1,6 +1,6 @@
 /*!
  * ArmCord custom-mod placeholder bundle.
- * Hosted at: https://raw.githubusercontent.com/ArmCord/ArmCord/stable/assets/custom-mod/placeholder.js
+ * Hosted at: https://raw.githubusercontent.com/broduer/armcord-assets/stable/assets/custom-mod/placeholder.js
  *
  * This file intentionally does nothing except log that it loaded. It is the
  * default `customJsBundle` so a fresh "Custom" mod install is a safe no-op.
@@ -11,5 +11,6 @@
  * `window.armcord` exposes the ArmCord API (window, settings, themes, ...).
  */
 (() => {
+    window.__ARMCORD_CUSTOM_PLACEHOLDER__ = true;
     console.log("[ArmCord] Custom placeholder bundle loaded (no-op).");
 })();
