@@ -1,0 +1,16 @@
+/*!
+ * ArmCord custom-mod placeholder bundle.
+ * Hosted at: https://raw.githubusercontent.com/ArmCord/ArmCord/stable/assets/custom-mod/placeholder.css
+ *
+ * This file intentionally changes nothing. It is the default `customCssBundle`
+ * so a fresh "Custom" mod install is a safe no-op.
+ *
+ * Uncomment the example below (or add your own rules) to restyle Discord.
+ * Custom CSS is injected after Discord's own stylesheets.
+ */
+
+/* Example: tint the app background slightly.
+:root {
+    --background-primary: #1e1f22;
+}
+*/
